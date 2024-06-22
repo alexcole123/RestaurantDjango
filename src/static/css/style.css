@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(lightblue, skyblue, white);
+
+}
+
+.layout {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    /* Removed border for the layout container */
+}
+
+.layout, nav, main {
+    border: 1px solid;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.active {
+    font-weight: bold !important;
+    color: green !important;
+    font-family: 'Franklin Gothic Medium';
+}
+
+/* show pics in line */
+.coolpic {
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Apply styles to the <li> elements */
+li {
+    margin-bottom: 10px; /* Add space between each list item */
+}
